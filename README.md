@@ -45,3 +45,18 @@ git commit
 ```
 
 ---
+
+## Color models
+The background color is `#ffffff` for light mode and `#000000` for dark mode.
+
+For color red : `#ff0000`
+
+---
+
+## Links
+
+Visit [Google](https://www.google.com)
+
+You need to visite [Heading](https://github.com/karthi-mr/test-markdown/edit/main/README.md#headings)
+
+Testing relative [link](#headings)
