@@ -57,6 +57,38 @@ For color red : `#ff0000`
 
 Visit [Google](https://www.google.com)
 
-You need to visite [Heading](https://github.com/karthi-mr/test-markdown/edit/main/README.md#headings)
+You need to visit (Not working as expected) [Heading](https://github.com/karthi-mr/test-markdown/edit/main/README.md#headings)
 
-Testing relative [link](#headings)
+Testing relative. **Always need to use this _relative links_** - [relative link](#headings)
+
+---
+
+## Images
+
+**image**
+
+![Alternative text used to display when image is not shown](https://myoctocat.com/assets/images/base-octocat.svg)
+
+**Alt text**
+
+![Now alternative text will be display due to wrong image](https://myoctocat.com/assets/images/base-octocat1.svg)
+
+---
+
+## specifying theme for image
+
+**Showing moon (dark mode)**
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
+
+**Showing sun (light mode)**
+
+<picture>
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+  <img alt="Shows an illustrated sun in light mode and a moon with stars in dark mode." src="https://user-images.githubusercontent.com/25423296/163456779-a8556205-d0a5-45e2-ac17-42d089e3c3f8.png">
+</picture>
