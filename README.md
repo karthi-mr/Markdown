@@ -86,3 +86,35 @@ Testing relative. **Always need to use this _relative links_** - [relative link]
 </picture>
 
 ---
+
+## List
+
+### Unordered List
+- List 1
+* List 2
++ List 3
++ List 4
+* List 5
+- List 6
+
+### Ordered List
+1. List 1
+1. List 2
+1. List 3
+
+### Nested List
+1. Outer List
+    - Inner List
+      - Second Inner list
+
+---
+
+## Task Lists
+
+- [x] Task 1
+- [ ] Task 2
+- [ ] Task 3
+- [ ] (Unexcape paranthesis)
+- [ ] \(Excape paranthesis)
+
+---
