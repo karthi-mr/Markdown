@@ -118,3 +118,27 @@ Testing relative. **Always need to use this _relative links_** - [relative link]
 - [ ] \(Excape paranthesis)
 
 ---
+
+## Emoji
+I like this :+1:
+
+I dislike this :-1:
+
+---
+
+## Paragraph
+
+Creating the new paragraph by just typing without any symbols
+
+---
+
+## footness
+
+Here is simple footness [^1]
+
+Multiline footness [^2]
+
+[^1]: My reference
+
+[^2]: This is multi line footness.
+  containing in this footness.
