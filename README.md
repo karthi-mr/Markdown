@@ -161,3 +161,17 @@ Multiline footness [^2]
 
 > [!CAUTION]
 > Advises about risks or negative outcomes of certain actions.
+
+---
+
+## Ignoring markdown formatting
+
+### Without escape markdown
+
+Let's rename *our-new-project* to *our-old-project*.
+
+### With escape markdown
+
+Let's rename \*our-new-project\* to \*our-old-project\*.
+
+---
